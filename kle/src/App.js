@@ -5,9 +5,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Startups from './pages/Startups/Startups';
+import Stup1 from './pages/Startups/startup1/stup1';
+import Stup2 from './pages/Startups/startup2/stup2';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
+import Event from './pages/Events/Event';
 import Contact from './pages/Contact/Contact';
+
 
 function App() {
   return (
@@ -33,10 +37,14 @@ function App() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/courses' className='text-uppercase'>Startups</Nav.Link>
+            {/* <Nav.Link href='/courses' className='text-uppercase'>Startups</Nav.Link>*/}
+             <Nav.Link href='/courses' className='text-uppercase'>Startups</Nav.Link>
+             
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
+              <Nav.Link href='/event' className='text-uppercase'>Events</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -44,10 +52,16 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/courses' element={<Startups />} />
+       {/* <Route path='/courses' element={<Startups>*/}
+      
+       <Route path='/courses' element={<Startups />} />
+       <Route path='/courses/stup1' element={<Stup1 />} /> 
+       <Route path='/courses/stup2' element={<Stup2 />} /> 
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/event' element={<Event />} />
         <Route path='/contact' element={<Contact />} />
+        
       </Routes>
 
       <footer>

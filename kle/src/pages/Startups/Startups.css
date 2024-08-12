@@ -1,11 +1,11 @@
-.courses-page header {
+.startups-page header {
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/startmain.png);
 }
 
-.courses-page .card-img-overlay {
+.startups-page .card-img-overlay {
     background-color: rgba(5, 10, 35, 0.7);
 }
 
-.courses-page .card:hover {
+.startups-page .card:hover {
     cursor: pointer;
 }
