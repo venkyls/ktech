@@ -1,0 +1,89 @@
+.startup-detail-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .banner {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+  .info-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .block {
+    flex: 1 1 calc(50% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonials {
+    padding: 20px 0;
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .big-feature-section {
+    margin: 40px 0;
+  }
+  
+  .big-feature-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-img img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .feature-desc {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .feature-desc h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-desc h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-desc p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
